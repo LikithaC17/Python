@@ -1,0 +1,5 @@
+source=open("sample.txt","r")
+target=open("copy.txt","w")
+target.write(source.read())
+source.close()
+target.close()
