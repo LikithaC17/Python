@@ -1,0 +1,8 @@
+file=open("students.txt","a")
+name=input("Enter name:")
+marks=input("Enter marks:")
+file.write(name+","+marks+"\n")
+file.close()
+file=open("students.txt","r")
+print(file.read())
+file.close()
