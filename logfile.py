@@ -1,0 +1,6 @@
+file=open("log.txt","r")
+text=file.read()
+print("ERROR:",text.count("ERROR"))
+print("WARNING:",text.count("WARNING"))
+print("INFO:",text.count("INFO"))
+file.close()
